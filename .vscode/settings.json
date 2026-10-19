@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^psql --version \\|\\| postgres --version \\|\\| pg_isready \\|\\| which psql \\|\\| which postgres$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
